@@ -1,0 +1,181 @@
+body{
+	background: url(img/background.jpg) no-repeat;
+background-size: cover;
+/*width: 90%;*/
+margin: 0px;
+	font-size:14px;
+    font-family: 'Pangolin', cursive;
+}
+
+
+.profile-img{
+
+	border-radius:50%;
+	width: 100px;	
+
+}
+.container{
+	margin: 50px;
+	width: 100%;
+	padding:0 100px;
+	box-sizing: border-box;
+}
+.container2{
+	width:100%;
+	padding:50px 100px;
+
+
+
+}
+.container3{
+	width: 100%;
+	padding: 50px 100px;
+	margin-top: 50px;
+}
+nav ul {
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	margin: 20px;
+}
+nav ul li a {
+	color: #d84f49;
+	text-decoration: none;
+	font-size:1.5rem;
+	font-weight:700;
+	transition ease .5 color;
+}
+nav ul li a{
+
+
+	color: white;
+}
+h1{
+	font-size: 3rem;
+	font-weight:100;
+}
+h2{
+	font-size: 2rem;
+	font-weight: 300;
+
+}
+p{
+	font-size: 0rem
+	font-weight:100;
+}
+.banner{
+	padding-left: 50px;
+	width: 100%;
+	text-align: center;
+	margin-top: 15%;
+}
+.container2{
+	height: 450px;
+	width: 650px;
+}
+.container3{
+	height: 500px;
+	width: 800px;
+
+}
+
+.banner2{
+	margin-left: 50px;
+	float:left;
+	display: inline-block;
+	width: 250px;
+}.banner3{
+	margin-left:100px;
+	float;left;
+	display: inline-block;
+	width: 250px;
+
+}
+.logo1 {
+	border-radius: 50%;
+	float:left;
+	display: inline-block;
+	width: 350px;
+}
+.logo2{
+	border-radius: 50%;
+	float:right;
+	display:inline-block;
+	width: 350px;
+
+
+}
+footer{
+	width: 100%;
+    background-color: #333;
+    padding: 5px 0;
+    color:#e0e0e0;
+    text-align:center;
+    position: fixed;
+    bottom: 0;
+	
+
+}
+body {
+  background: url(../img/background.jpg) no-repeat;
+  background-size: cover;
+  font-size: 14px;
+}
+.round-img {
+  border-radius: 50%;
+}
+.profile-img {
+  width: 100px;
+}
+.container {
+  width: 100%;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+nav ul li a {
+  color: #d84f49;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#user-container {
+    padding: 20px;
+}
+
+.user {
+    background-color: rgba(255,255,255,.5);
+    border: 5px solid #e0e0e0;
+    display: inline-block;
+    padding: 15px;
+}
+
+.user p span {
+    background-color: #26ABFF;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.search-input, .search-btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.search-btn {
+    background-color: #26ABFF;
+    color: white;
+}
+
+
